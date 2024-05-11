@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: block;
+    justify-content: center;
+}
+
+.headercontent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+nav {
+    width: 80%;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: blue;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+li {
+    list-style: none;
+    color: rgb(221, 158, 158);
+    cursor: pointer;
+    font-size: 22px;
+    transition: .5s;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    
+}
+
+li:hover {
+    color: white;
+}
+
+.logoheader {
+    width: 250px;
+    height: auto;
+}
+
+.bannertopprincipal {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.templatebanner {
+    width: 90%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.bannertop1 {
+    background-image: url("https://www.portalr10.com/images/noticias/123249/3a71003acbd86c53ca47095cf626bf0f.jpeg");
+}
+
+.bannertop2 {
+    background-image: url("https://www.portalr10.com/images/noticias/54231/1527344185.jpg");
+}
+
+.bannertop3 {
+    background-image: url("https://www.canal121.com.br/images/noticias/23435/2ba86ba6cc07bf395f83b2cc1b72b03e.jpeg");
+}
+
+
+    
+    
+
+#trailler-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.trailler {
+    width: 50%;
+    height: auto;
+    background-color: blue;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    background-color: blue;
+}
+
+#texttrailler {
+    background-color: blue;
+}
+
+.description {
+    color: white;
+    font-size: 16px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    width: 80%;
+    background-color: blue;
+}
+
+.button {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: #f3a9a9;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #52e75f ;
+    color: blue;
+}
+
+.actor-cards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.cards-content {
+    width: 90%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    background-color: white;
+    align-items: center;
+}
+
+.cards {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards:hover {
+    transform: scale(1.12);
+}
+
+.banner1 {
+    background-image: url("../imagens/conhecapiaui.png");
+}
+
+.banner2 {
+    background-image: url("../imagens/destino.png"); 
+}
+
+.banner3 {
+    background-image: url("../imagens/proxdestino.png");
+}
+
+
+
+#video-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.video-content {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.video {
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
+
+#videosinopse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    background-color: blue;
+}
+
+#videotext {
+    background-color: blue;
+}
+
+.videodescription {
+    color: white;
+    font-size: 16px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    width: 80%;
+    background-color: blue;
+}
+
+.videobutton {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: #f3a9a9;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+.videobutton:hover {
+    background-color: #52e75f ;
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logoLFimage {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-position: 100%;
+    padding: 10px 10px;
+}
+
+#spanfooter {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.footer-list {
+    background-color:#fff;;
+}
+
+#Copyright {
+    background-color:#fff;;
+    padding-bottom: 5px;
+}
+
+.footer-nav {
+    display: none;
+}
+
+
+
+@media(max-width: 768px){
+
+    header {
+        height: 200px;
+    }
+
+    nav {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    ul {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+    }
+    
+    li {
+        font-size: 14px;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .bannertopprincipal {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        background-color: white;
+        column-gap: 0px;
+        
+    }
+        
+    .templatebanner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        background-color: white;
+    }
+        
+
+    #trailler-container {
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .actor-cards-container {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: white;
+    }
+    
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .trailler {
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 50%;
+        background-color: rgb(151, 151, 240);
+        align-items: center;
+    }
+
+    .li_button {
+        background-color: white;
+    }
+
+
+
+
+
+
+
+    #video-container {
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+       
+    .video-content {
+        width: 95%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .video {
+        width: 100%;
+        padding-left: 10px;
+    }
+    
+    #videosinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .videodescription {
+        width: 100%;
+    }
+
+    .videobutton {
+        width: 50%;
+        background-color: rgb(151, 151, 240);
+        align-items: center;
+    }
+
+    .li_videobutton {
+        background-color: white;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+
+    footer {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        height: 200px;
+        margin-top: 20px;
+        background-color: blue;
+    }
+
+    .logoLF {
+        width: 100%;
+        display: flex;
+        padding-left: 5px;
+        justify-content: center;
+        background-color: blue;
+    }
+
+    .logoLFimage {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+    }
+
+    #spanfooter {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+    }
+
+    #Copyright {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+      
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: none;
+        background-color: blue;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        background-color: none;
+        background-color: blue;
+    }
+
+    .menufooter {
+        background-color: blue;
+    }
+       
+}
